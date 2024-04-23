@@ -111,6 +111,7 @@ blockquote p {
     color: white;
     font-size: 2rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .blob-left {
