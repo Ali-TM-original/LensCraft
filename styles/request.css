@@ -25,6 +25,98 @@ body {
     text-transform: capitalize;
 }
 
+.tablesection-header {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.tablesection-header h1 {
+    font-weight: bold;
+
+}
+
+.pricing-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-card {
+    margin: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #161E54 !important;
+    color: white !important;
+}
+
+.image-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-part img {
+    width: 6.2rem;
+    border-radius: 5rem;
+}
+
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-body p {
+    font-size: 20px;
+    color: white;
+}
+
+.card-body h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body a {
+    text-decoration: none !important;
+    background: #14A9D8;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid #14A9D8;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+table {
+    --bs-table-border-color: transparent !important;
+    --bs-table-color: white !important;
+}
+
+thead tr {
+    --bs-table-bg: #132358 !important;
+}
+
+tbody tr:nth-child(even) {
+    --bs-table-bg: #132358 !important;
+}
+
+tbody tr:nth-child(odd) {
+    --bs-table-bg: #003163 !important;
+}
+
+.table tr {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .quote-wrapper {
     border-radius: 10px;
     padding-top: 10px;
@@ -94,7 +186,6 @@ blockquote p {
     background: #14A9D8;
     border-radius: 20px;
     padding: 10px 20px;
-    margin-right: 30px;
     border: 2px solid #14A9D8;
     color: white;
     font-weight: 500;
@@ -141,4 +232,11 @@ blockquote p {
             rgb(62, 177, 183) 67%,
             rgb(62, 177, 183) 81%);
 
+}
+
+@media only screen and (max-width: 800px) {
+    .pricing-group {
+        display: flex;
+        flex-direction: column;
+    }
 }

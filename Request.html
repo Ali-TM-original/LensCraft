@@ -18,6 +18,7 @@
     ></script>
     <title>Request</title>
   </head>
+
   <body>
     <div class="container">
       <!-- NavBar -->
@@ -75,49 +76,134 @@
     <!-- Hero Section -->
     <div class="container">
       <div class="HeroWrapper">
-        <form class="row row-cols-lg-auto g-3 align-items-center p-4" id="collform">
-            <div class="col-12">
-              <div class="input-group">
-                <input type="text" class="form-control p-3" placeholder="Name">
-              </div>
+        <form
+          class="row row-cols-lg-auto g-3 align-items-center p-4"
+          id="collform"
+        >
+          <div class="col-12">
+            <div class="input-group">
+              <input type="text" class="form-control p-3" placeholder="Name" />
             </div>
-            
-            <div class="col-12">
-                <div class="input-group">
-                  <input type="text" class="form-control p-3" placeholder="Email">
-                </div>
-            </div>
+          </div>
 
-            <div class="col-12">
-                <div class="input-group">
-                  <input type="text" class="form-control p-3" placeholder="Phone">
-                </div>
+          <div class="col-12">
+            <div class="input-group">
+              <input type="text" class="form-control p-3" placeholder="Email" />
             </div>
-            
+          </div>
+
+          <div class="col-12">
+            <div class="input-group">
+              <input type="text" class="form-control p-3" placeholder="Phone" />
+            </div>
+          </div>
         </form>
-        <button type="submit" for="collform" class="coolbtn">Get Quote</button>
-        </div>
+        <button onclick="alert('HELLO')" class="coolbtn">Get Quote</button>
       </div>
     </div>
-
 
     <!-- Table Right HERE -->
     <div class="container">
+      <div class="tablesection-header">
+        <h1>Our Plans</h1>
+      </div>
+      <div class="pricing-group">
+        <div class="price-card card mb-4 rounded-3 shadow-sm">
+          <div class="image-part py-3">
+            <img src="/media/images/test1.jpeg" />
+          </div>
+          <div class="card-body">
+            <p>Starter Plan</p>
+            <h1>$100/<br />SHOOT</h1>
+            <a href="#" class="btn-one">Get Quote</a>
+          </div>
+        </div>
+        <div class="price-card card mb-4 rounded-3 shadow-sm">
+          <div class="image-part py-3">
+            <img src="/media/images/test1.jpeg" />
+          </div>
+          <div class="card-body">
+            <p>Standard Plan</p>
+            <h1>$150/<br />SHOOT</h1>
+            <a href="#" class="btn-one">Get Quote</a>
+          </div>
+        </div>
+        <div class="price-card card mb-4 rounded-3 shadow-sm">
+          <div class="image-part py-3">
+            <img src="/media/images/test1.jpeg" />
+          </div>
+          <div class="card-body">
+            <p>Premium Plan</p>
+            <h1>$200/<br />SHOOT</h1>
+            <a href="#" class="btn-one">Get Quote</a>
+          </div>
+        </div>
+      </div>
 
-    </div>
-    <!-- Quote Stuff -->
-    <div
-      class="container quote-container"
-    >
-      <div class="quote-wrapper">
-        <blockquote class="blockquote text-white">
-          <p>“The Sky is the only limit”</p>
-        </blockquote>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Features</th>
+              <th scope="col">Starter</th>
+              <th scope="col">Standard</th>
+              <th scope="col">Premium</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">Video/Photo Editing</th>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">Cinematic Shots</th>
+              <td>O</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">Drone Shots</th>
+              <td>O</td>
+              <td>0</td>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">High Resolution</th>
+              <td>O</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">Priority Delivery</th>
+              <td>O</td>
+              <td>O</td>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">Revisions</th>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+          </tbody>
+        </table>
+        Variants
       </div>
     </div>
 
-    <div class="container">
-
+    <!-- Quote Stuff -->
+    <div class="container quote-container">
+      <div class="quote-wrapper">
+        <blockquote class="blockquote text-white">
+          <p>
+            “Photography is the art of freezing moments in time, capturing
+            emotions, and painting stories with light”
+          </p>
+        </blockquote>
+      </div>
     </div>
 
     <!-- Footer -->
