@@ -1,6 +1,6 @@
-let LoginForm = document.getElementById("Contact_form");
+let ContactForm = document.getElementById("Contact_form");
 
-LoginForm.addEventListener("submit", (e) => {
+ContactForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
     let Name = document.getElementById("nameField");
@@ -10,10 +10,10 @@ LoginForm.addEventListener("submit", (e) => {
 
     if (Name.value == "" || EmailAddress.value == "" || Phone.value == "" || Message.value == "") {
         alert("Cannot Send Empty Email");
-        LoginForm.removeEventListener("submit");
+        ContactForm.removeEventListener("submit");
     }
 
-    LoginForm.reset();
+    ContactForm.reset();
     alert("Sending Mail to: d946bf@inf.elte.hu");
-    LoginForm.removeEventListener("submit");
+    ContactForm.removeEventListener("submit");
 });
