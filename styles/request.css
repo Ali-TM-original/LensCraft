@@ -75,7 +75,7 @@ body {
 }
 
 .card-body p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
 }
 
@@ -113,7 +113,7 @@ tbody tr:nth-child(odd) {
 }
 
 .table tr {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
@@ -126,7 +126,7 @@ tbody tr:nth-child(odd) {
 }
 
 
-blockquote p {
+blockquote article {
     font-weight: bold;
 }
 

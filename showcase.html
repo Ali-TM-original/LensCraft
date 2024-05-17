@@ -21,51 +21,65 @@
     <!-- NavBar -->
     <div class="blob-left"></div>
     <div class="blob-right"></div>
-    <div class="container">
-      <!-- NavBar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Lens Craft</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"> </span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto text-end">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-white"
-                  aria-current="page"
-                  href="/index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/showcase.html"
-                  >Showcase</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/Request.html">Request</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/contact.html">Contact</a>
-              </li>
-            </ul>
+    <header>
+      <div class="container">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Lens Craft</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="nav nav-underline navbar-nav ms-auto text-end">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="/showcase.html"
+                    >Showcase</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/Request.html"
+                    >Request</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/contact.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="#content"
+                    >Jump to Content</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
+    </header>
     <!-- Video -->
 
-    <div class="container">
+    <section class="container">
       <div class="video-container">
         <video autoplay loop muted>
           <source src="/media/videos/videobg.mp4" type="video/mp4" />
@@ -74,10 +88,10 @@
           <h1>Looking for Magic we got you covered</h1>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Now We Use Grid -->
-    <div class="container">
+    <section id="content" class="container">
       <div class="card-container">
         <div
           class="card bg-dark"
@@ -85,7 +99,7 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="0"
         >
-          <img src="./media/images/1.jpg" alt="Image 1" />
+          <img src="./media/images/1-thumb.jpg" alt="Image 1" />
         </div>
         <div
           class="card bg-dark"
@@ -93,7 +107,7 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="1"
         >
-          <img src="./media/images/2.jpg" alt="Image 2" />
+          <img src="./media/images/2-thumb.jpg" alt="Image 2" />
         </div>
         <div
           class="card bg-dark"
@@ -101,11 +115,12 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="2"
         >
-          <img src="./media/images/3.jpg" alt="Image 3" />
+          <img src="./media/images/3-thumb.jpg" alt="Image 3" />
         </div>
       </div>
-    </div>
-    <div class="container">
+    </section>
+
+    <section class="container">
       <div class="card-container">
         <div
           class="card bg-dark"
@@ -113,7 +128,7 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="3"
         >
-          <img src="./media/images/4.jpg" alt="Image 4" />
+          <img src="./media/images/4-thumb.jpg" alt="Image 4" />
         </div>
         <div
           class="card bg-dark"
@@ -121,7 +136,7 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="4"
         >
-          <img src="./media/images/5.jpg" alt="Image 5" />
+          <img src="./media/images/5-thumb.jpg" alt="Image 5" />
         </div>
         <div
           class="card bg-dark"
@@ -129,11 +144,12 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="5"
         >
-          <img src="./media/images/6.jpg" alt="Image 6" />
+          <img src="./media/images/6-thumb.jpg" alt="Image 6" />
         </div>
       </div>
-    </div>
-    <div class="container">
+    </section>
+
+    <section class="container">
       <div class="card-container">
         <div
           class="card bg-dark"
@@ -141,7 +157,7 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="6"
         >
-          <img src="./media/images/7.jpg" alt="Image 7" />
+          <img src="./media/images/7-thumb.jpg" alt="Image 7" />
         </div>
         <div
           class="card bg-dark"
@@ -149,7 +165,7 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="7"
         >
-          <img src="./media/images/8.jpg" alt="Image 8" />
+          <img src="./media/images/8-thumb.jpg" alt="Image 8" />
         </div>
         <div
           class="card bg-dark"
@@ -157,19 +173,13 @@
           data-bs-target="#showcaseModal"
           data-bs-slide-to="8"
         >
-          <img src="./media/images/9.jpg" alt="Image 9" />
+          <img src="./media/images/9-thumb.jpg" alt="Image 9" />
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Carousel -->
-    <div
-      class="modal fade"
-      id="showcaseModal"
-      tabindex="-1"
-      aria-labelledby="showcaseModalLabel"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="showcaseModal" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div
@@ -179,75 +189,93 @@
           >
             <div class="img-size overflow-hidden">
               <div class="card carousel-item active">
-                <img src="./media/images/1.jpg" alt="CarouselImage 1" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
-                  <p class="fs-4 fw-medium">
-                    An asthetic image of a fallen leaf
-                  </p>
-                </div>
+                <figure>
+                  <img src="./media/images/1.jpg" alt="CarouselImage 1" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
+                    <p class="fs-4 fw-medium">
+                      An asthetic image of a fallen leaf
+                    </p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/2.jpg" alt="CarouselImage 2" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
-                  <p class="fs-4 fw-medium">ELTE IK South Building</p>
-                </div>
+                <figure>
+                  <img src="./media/images/2.jpg" alt="CarouselImage 2" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
+                    <p class="fs-4 fw-medium">ELTE IK South Building</p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/3.jpg" alt="CarouselImage 3" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
-                  <p class="fs-4 fw-medium">
-                    Candy like Sky in a random street in Budapest Outskirts
-                  </p>
-                </div>
+                <figure>
+                  <img src="./media/images/3.jpg" alt="CarouselImage 3" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
+                    <p class="fs-4 fw-medium">
+                      Candy like Sky in a random street in Budapest Outskirts
+                    </p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/4.jpg" alt="CarouselImage 4" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Lonely Nights</h5>
-                  <p class="fs-4 fw-medium">Becsi ut and Lonliness</p>
-                </div>
+                <figure>
+                  <img src="./media/images/4.jpg" alt="CarouselImage 4" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Lonely Nights</h5>
+                    <p class="fs-4 fw-medium">Becsi ut and Lonliness</p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/5.jpg" alt="CarouselImage 5" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Lonely Nights</h5>
-                  <p class="fs-4 fw-medium">
-                    BKK Tram 1 soaring throught the sky
-                  </p>
-                </div>
+                <figure>
+                  <img src="./media/images/5.jpg" alt="CarouselImage 5" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Lonely Nights</h5>
+                    <p class="fs-4 fw-medium">
+                      BKK Tram 1 soaring throught the sky
+                    </p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/6.jpg" alt="CarouselImage 6" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Lonely Nights</h5>
-                  <p class="fs-4 fw-medium">Pre Apocalyptic Lidl</p>
-                </div>
+                <figure>
+                  <img src="./media/images/6.jpg" alt="CarouselImage 6" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Lonely Nights</h5>
+                    <p class="fs-4 fw-medium">Pre Apocalyptic Lidl</p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/7.jpg" alt="CarouselImage 7" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Lonely Nights</h5>
-                  <p class="fs-4 fw-medium">
-                    A Lone Warrior Waiting For What's Ahead
-                  </p>
-                </div>
+                <figure>
+                  <img src="./media/images/7.jpg" alt="CarouselImage 7" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Lonely Nights</h5>
+                    <p class="fs-4 fw-medium">
+                      A Lone Warrior Waiting For What's Ahead
+                    </p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/8.jpg" alt="CarouselImage 8" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Lonely Nights</h5>
-                  <p class="fs-4 fw-medium">3AM District 3</p>
-                </div>
+                <figure>
+                  <img src="./media/images/8.jpg" alt="CarouselImage 8" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Lonely Nights</h5>
+                    <p class="fs-4 fw-medium">3AM District 3</p>
+                  </figcaption>
+                </figure>
               </div>
               <div class="card carousel-item">
-                <img src="./media/images/9.jpg" alt="CarouselImage 9" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
-                  <p class="fs-4 fw-medium">Pathway to Heaven</p>
-                </div>
+                <figure>
+                  <img src="./media/images/9.jpg" alt="CarouselImage 9" />
+                  <figcaption class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold fs-2">Glimpse Of Autumn</h5>
+                    <p class="fs-4 fw-medium">Pathway to Heaven</p>
+                  </figcaption>
+                </figure>
               </div>
             </div>
             <button
@@ -283,18 +311,20 @@
     <div class="container quote-container">
       <div class="quote-wrapper">
         <blockquote class="blockquote text-white">
-          <p>“The Sky is the only limit”</p>
+          <article>“The Sky is the only limit”</article>
         </blockquote>
       </div>
     </div>
     <!-- Footer -->
-    <div class="container">
-      <div class="footer-ending">
-        <p>Are you ready?</p>
-        <h3>Be a part of the next big thing</h3>
-        <a href="/Request.html" class="btn-one">Hire Us</a>
+    <footer>
+      <div class="container">
+        <div class="footer-ending">
+          <p>Are you ready?</p>
+          <h3>Be a part of the next big thing</h3>
+          <a href="/Request.html" class="btn-one">Hire Us</a>
+        </div>
       </div>
-    </div>
+    </footer>
 
     <!-- Ehh Not sure if i want this now -->
     <script type="text/javascript" src="./scripts/showcaseModal.js"></script>
